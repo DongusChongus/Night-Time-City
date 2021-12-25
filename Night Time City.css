@@ -9,7 +9,7 @@
   --white: rgba(255,255,255,0.05);
   --white-double: rgba(255,255,255,0.1);
   --white-triple: rgba(255,255,255,0.15);
-  --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
+  --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 1), rgb(var(--gradient-secondary), 1));
   --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
   --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
   --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
