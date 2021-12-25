@@ -1,5 +1,5 @@
 :root {
-  --main-font: "https://fonts.googleapis.com/css2?family=Poppins&display=swap";
+  --main-font: https://fonts.googleapis.com/css2?family=Poppins&display=swap;
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
