@@ -1,7 +1,6 @@
 @import url"https://monstrousdev.github.io/themes/addons/user-tags.css"
 
 :root {
-  --background-image: url(https://i.pinimg.com/originals/e6/04/3a/e6043a3ead47896b2e6a5b8df755a076.jpg);
   --main-font: https://fonts.googleapis.com/css2?family=Poppins&display=swap;
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
