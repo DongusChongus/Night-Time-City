@@ -487,9 +487,9 @@
   content: "";
   border-radius: 50%;
   position: absolute;
-  background: var(--home-icon:);
-  background-size: var(--home-button-size:, cover);
-  background-position: var(--home-button-position:, center);
+  background: var(--home-button-image, url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg"));
+  background-size: var(--home-button-size, cover);
+  background-position: var(--home-button-position, center);
   height: 100%;
   width: 100%;
   transition: 0.2s ease;
