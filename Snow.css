@@ -2469,3 +2469,44 @@ box-sizing: border-box;
 .userPopout-xaxa6l[aria-label="mr_miner"] .headerTagDiscriminatorNoNickname-D-AYUN:after{
   content: "" !important;
 }
+.button-14-BFJ:hover .contents-18-Yxp {
+  animation: UserModalButtons 0.5s normal ease;
+}
+.container-3baos1 .noWrap-3jynv6 {
+  width: 100px;
+  opacity: 1;
+}
+.button-14-BFJ {
+  transition: 0.2s;
+}
+.button-14-BFJ:hover {
+  padding-bottom: 0px;
+  transition: 0.2;
+}
+@keyframes UserModalButtons {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.mainContent-u_9PKf:hover {
+  animation: UserModalButtons 0.5s normal ease;}
+.mainContent-u_9PKf .noWrap-3jynv6 {width: 100px;opacity: 1;}
+.mainContent-u_9PKf {transition: 0.2s;}
+.mainContent-u_9PKf:hover {transition: 0.2;}
+@keyframes UserModalButtons {
+  0% {
+    transform: translateY(0px);
+  }
+  45% {
+    transform: translateY(-5px);
+  }
+  90% {
+    transform: translateY(0px);
+  }
+}
