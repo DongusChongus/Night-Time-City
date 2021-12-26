@@ -138,7 +138,7 @@
 #app-mount .app-2rEoOp::before {
   content: "Your version of Snow is outdated. Please redownload";
   white-space: pre-wrap;
-  display: var(--update notice:, Version 1.0 of Snow! Enjoy!);
+  display: "--update notice: Version 1.0 of Snow! Enjoy!";
   color: #fff;
   text-align: center;
   padding: 10px 0;
