@@ -499,7 +499,7 @@
   content: "";
   border-radius: 50%;
   position: absolute;
-  background: var(--home-button-image);
+  background: var(--home-button-image, url("https://i.imgur.com/2H0NG6H.gif"));
   background-size: var(--home-button-size, cover);
   background-position: var(--home-button-position, center);
   height: 100%;
