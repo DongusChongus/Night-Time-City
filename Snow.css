@@ -488,8 +488,8 @@
   border-radius: 50%;
   position: absolute;
   background: var(--home-icon, url("https://donguschongus.github.io/Snow/snow%20globe.gif"));
-  background-size: var(--home-button-size, cover);
-  background-position: var(--home-button-position, center);
+  background-size: var(--home-size, cover);
+  background-position: var(--home-position, center);
   height: 100%;
   width: 100%;
   transition: 0.2s ease;
