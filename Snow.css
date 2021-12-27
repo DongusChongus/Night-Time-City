@@ -266,12 +266,6 @@ textarea,
   white-space: nowrap;
   order: 1;
 }
-.typeWindows-1za-n7 > .wordmark-2iDDfm:before {
-  content: "ClearVision";
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-  text-shadow: 0 0 3px #000;
-}
 .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
   content: "v6.1.3";
   color: rgba(255, 255, 255, 0.3);
