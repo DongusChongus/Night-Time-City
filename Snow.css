@@ -38,8 +38,8 @@
   --interactive-hover: #eee;
   --interactive-active: #fff;
   --interactive-muted: #777;
-  --background-primary: transparent;
-  --background-secondary: rgba(0,0,0,0.3);
+  --background-primary: var(--background-color);
+  --background-secondary: var(--background-secondary);
   --background-secondary-alt: transparent;
   --background-tertiary: transparent;
   --background-accent: #4f545c;
