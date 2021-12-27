@@ -38,7 +38,7 @@
   --interactive-hover: #eee;
   --interactive-active: #fff;
   --interactive-muted: #777;
-  --background-primary: var(--background-color);
+  --background-primary: var(--background-primary);
   --background-secondary: var(--background-secondary);
   --background-secondary-alt: transparent;
   --background-tertiary: transparent;
