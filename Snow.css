@@ -13,7 +13,7 @@
   --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
   --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
   --text-shadow: 1;
-  --chat-embed: var(--background-secondary);
+  --chat-embed: var(--background-secondary-color);
   --discord-green: 67,181,129;
   --discord-yellow: 219,171,9;
   --discord-red: 215,58,73;
