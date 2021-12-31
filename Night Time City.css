@@ -9485,7 +9485,6 @@ textarea::-webkit-scrollbar {
     transform: translate3d(13px, 8px, 0px);
   }
 }
-/* The following CSS was made in part by Leozard, LeafyLuigi, KitKat, Scars and Cruxie */
 /* Dropdown voice call region changer */
 .theme-dark .quickSelectPopout-X1hvgV {
   background: var(--backdrop-overlay);
