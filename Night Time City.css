@@ -1974,5 +1974,24 @@ box-sizing: border-box;
 .userPopout-xaxa6l[aria-label="mr_miner"] .headerTagDiscriminatorNoNickname-D-AYUN:after{
   content: "" !important;
 }
+#app-mount .botText-1526X_ {
+  font-weight: 600;
+}
+#app-mount .botTagInvert-18-95s .botText-1526X_ {
+  font-weight: bold;
+}
 ::-webkit-input-placeholder, body, button, input, select, textarea {
   font-family: var(--font, "Whitney");
+}
+#app-mount .tooltip-2QfLtc {
+  color: var(--text-normal);
+  text-align: center;
+  font-weight: 600;
+}
+#app-mount .member-3-YXUe.selected-aXhQR6 .botText-1526X_ {
+  font-weight: 900;
+}
+#app-mount .help-text,
+#app-mount span[style="font-size: 10px; margin-left: 5px;"] {
+  display: none;
+}
