@@ -1,5 +1,8 @@
 :root {
-  --Night Time City-version: "2.0";
+  --version: "2.0";
+  --author: "DongusChongus#3969";
+  --name: "Night Time City";
+  --description: "Comes with extra cheese!";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
