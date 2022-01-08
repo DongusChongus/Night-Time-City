@@ -1,6 +1,6 @@
 :root {
-  --background: url(https://cdn.discordapp.com/attachments/468141324906921984/874986058562043984/background.png);
-  --home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/874999698426068992/home-icon.png);
+  --bg: url(https://cdn.discordapp.com/attachments/468141324906921984/874986058562043984/background.png);
+  --home-icon: (https://cdn.discordapp.com/attachments/468141324906921984/874999698426068992/home-icon.png);
   --primary-color: #00d5ce;
   --secondary-color: #0a173a;
   --tertiary-color: #1487b1;
@@ -8,7 +8,7 @@
 
 #app-mount .container-1D34oG,
 .app-2rEoOp,
-.background-h5JY_x,
+.bg-h5JY_x,
 .chat-3bRxxu,
 .content-1o0f9g,
 .contentRegionScroller-26nc1e,
@@ -67,7 +67,7 @@ body {
   display: none;
 }
 .appMount-3lHmkl {
-  background: var(--background) center/cover no-repeat;
+  background: var(--bg) center/cover no-repeat;
 }
 .withFrame-haYltI {
   padding-top: 4px;
@@ -82,7 +82,7 @@ body {
 .header-2mZ9Ov::before,
 .stickyHeader-hH_ZLl::before,
 .titleContainer-2CXtJo::before {
-  background: var(--background) center/cover fixed;
+  background: var(--bg) center/cover fixed;
 }
 .header-2mZ9Ov::after,
 .header-2mZ9Ov::before,
@@ -199,7 +199,7 @@ min-height: 55px;
 }
 
 .quickswitcher-3JagVE {
-  background-image: var(--background);
+  background-image: var(--bg);
 }
 .input-2VB9rf {
   background-color: transparent;
@@ -363,6 +363,9 @@ button[aria-label="Send a gift"] {
 .wordmark-2iDDfm > svg {
   display: none;
 }
+.wordmark-2iDDfm:after {
+  content: "Night Time City by DongusChongus#3969";
+}
 
 .channelName-2YrOjO,
 .subtitle-3V1p2E {
@@ -400,7 +403,7 @@ button[aria-label="Send a gift"] {
 }
 
 .resultsGroup-r_nuzN {
-  background-image: var(--background);
+  background-image: var(--bg);
   color: var(--primary-color);
 }
 .barButtonMain-3K-jeJ {
@@ -602,7 +605,7 @@ button[aria-label="Send a gift"] {
 .note-1oo11U,
 .bodyInnerWrapper-26fQXj,
 .footer-3UKYOU {
-  background-image: var(--background);
+  background-image: var(--bg);
 }
 
 .grid-1nZz7S {
@@ -626,7 +629,7 @@ button[aria-label="Send a gift"] {
 }
 .body-r6_QPy,
 .topSection-y3p-_D {
-  background-image: var(--background);
+  background-image: var(--bg);
 }
 
 .top-28JiJ- .item-PXvHYJ {
@@ -709,7 +712,7 @@ button[aria-label="Send a gift"] {
 
 .contentWrapper-SvZHNd,
 .categoryList-2Kzf65 {
-  background-image: var(--background);
+  background-image: var(--bg);
 }
 .header-ywPcAE {
   background-color: transparent;
@@ -751,7 +754,7 @@ button[aria-label="Send a gift"] {
 }
 
 .theme-dark .root-1gCeng {
-  background-image: var(--background);
+  background-image: var(--bg);
 }
 
 .theme-dark .footer-2gL1pp {
@@ -787,7 +790,7 @@ button[aria-label="Send a gift"] {
 }
 
 .header-3msK0M {
-  background-image: var(--background);
+  background-image: var(--bg);
 }
 
 .container-UC8Ug1,
@@ -812,7 +815,7 @@ button[aria-label="Send a gift"] {
 .messagesPopout-24nkyi,
 .container-3u944p,
 .uploadModal-2ifh8j {
-  background-image: var(--background);
+  background-image: var(--bg);
 }
 .message-1Ng5AR {
   background-color: var(--secondary-color);
@@ -832,7 +835,7 @@ button[aria-label="Send a gift"] {
 }
 
 .messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT,
-.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbackgroundPa,
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa,
 .messageContainer-gbhlwo,
 .channelHeader-3Gd2xq {
   background-color: var(--secondary-color);
@@ -840,7 +843,7 @@ button[aria-label="Send a gift"] {
 
 .title-29uC1r,
 .header-2M8_sb,
-.addButtonIcon-2Cbackground1X,
+.addButtonIcon-2CbG1X,
 .username-3KYl0N,
 .icon-2IuuZd,
 .activityText-yGKsKm,
@@ -860,7 +863,7 @@ button[aria-label="Send a gift"] {
 }
 
 .popoutInfo-pKbpvG {
-  background-image: var(--background);
+  background-image: var(--bg);
 }
 
 .wrapper-2tAnRe {
@@ -880,7 +883,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--primary-color);
 }
 
-.unreadPillCapStroke-7rkHbackground {
+.unreadPillCapStroke-7rkHbg {
   color: var(--primary-color);
   fill: var(--primary-color);
 }
@@ -889,7 +892,7 @@ button[aria-label="Send a gift"] {
   border-color: var(--primary-color);
 }
 #permissions-modal-wrapper .header, #permissions-modal-wrapper .perm-side, #permissions-modal-wrapper .role-side {
-  background-image: var(--background);
+  background-image: var(--bg);
 }
 
 .replyBar-1YLQ2F {
@@ -938,9 +941,4 @@ button[aria-label="Send a gift"] {
 .scrollerThemed-2oenus.themeHidden-2yP93k
   .scroller-2FKFPG::-webkit-scrollbar-track {
   display: none !important;
-}
-
-::selection {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
 }
