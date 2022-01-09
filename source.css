@@ -29,6 +29,7 @@
   --chat-bubble-bg-self: rgb(var(--bubble);
   --chat-bubble-padding: 10px 14px;
   --chat-bubble-display: inline-block;
+  --bubble: 0, 0, 0, 0.5
 }
 .theme-dark {
   --header-primary: #fff;
