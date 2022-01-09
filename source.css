@@ -1,4 +1,5 @@
 :root {
+  
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
@@ -25,12 +26,8 @@
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
   --version: "Night Time City 2.0";
-  --chat-bubble-bg: rgba(255, 255, 255, 0.03);
-  --chat-bubble-bg-self: rgb(var(--bubble);
-  --chat-bubble-padding: 10px 14px;
-  --chat-bubble-display: inline-block;
-  --bubble: 0, 0, 0, 0.5
 }
+
 .theme-dark {
   --header-primary: #fff;
   --header-secondary: #bbb;
@@ -79,18 +76,7 @@
   --deprecated-text-input-prefix: #dcddde;
   --text-link: var(--link-colour);
 }
-#app-mount .cozy-3raOZG .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39) {
-  display: var(--chat-bubble-display);
-  margin: 0;
-  background: var(--chat-bubble-bg);
-  padding: var(--chat-bubble-padding);
-  border-radius: 6px;
-  overflow: visible;
-  max-width: 100%;
-}
-#app-mount .cozy-3raOZG[data-is-author-self=true] .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39) {
-  background: var(--chat-bubble-bg-self);
-}
+
 #app-mount:before {
   content: "";
   background: var(--background-image);
