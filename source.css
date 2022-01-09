@@ -31,18 +31,6 @@
   --chat-bubble-padding: 10px 14px;
   --chat-bubble-display: inline-block;
 }
-#app-mount .cozy-3raOZG .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39) {
-  display: var(--chat-bubble-display);
-  margin: 0;
-  background: var(--chat-bubble-bg);
-  padding: var(--chat-bubble-padding);
-  border-radius: 6px;
-  overflow: visible;
-  max-width: 100%;
-}
-#app-mount .cozy-3raOZG[data-is-author-self=true] .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39) {
-  background: var(--chat-bubble-bg-self);
-}
 .theme-dark {
   --header-primary: #fff;
   --header-secondary: #bbb;
@@ -91,7 +79,18 @@
   --deprecated-text-input-prefix: #dcddde;
   --text-link: var(--link-colour);
 }
-
+#app-mount .cozy-3raOZG .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39) {
+  display: var(--chat-bubble-display);
+  margin: 0;
+  background: var(--chat-bubble-bg);
+  padding: var(--chat-bubble-padding);
+  border-radius: 6px;
+  overflow: visible;
+  max-width: 100%;
+}
+#app-mount .cozy-3raOZG[data-is-author-self=true] .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39) {
+  background: var(--chat-bubble-bg-self);
+}
 #app-mount:before {
   content: "";
   background: var(--background-image);
