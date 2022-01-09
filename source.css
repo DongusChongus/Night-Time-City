@@ -26,7 +26,7 @@
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
   --chat-bubble-bg: rgba(255, 255, 255, 0.03);
-  --chat-bubble-bg-self: rgba(var(--accent), 0.15);
+  --chat-bubble-bg-self: rgba(var(--chat-bubbles), 0.15);
   --chat-bubble-padding: 10px 14px;
   --chat-bubble-display: inline-block;
   --version: "Night Time City 2.0";
