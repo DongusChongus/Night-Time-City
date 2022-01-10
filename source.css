@@ -1,8 +1,9 @@
-/* Old Windows Titlebar */?
-@import url(https://discordstyles.github.io/Addons/windows-titlebar.css);
-
 :root {
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
+  --TB-top: calc(var(--server-container) + var(--window-padding));
+  --TB-tr-roundness: var(--window-roundness);
+  --TB-position-top: var(--TB-top, var(--window-padding));
+  --TB-position-right: var(--window-padding);
   --white-half: rgba(255,255,255,0.025);
   --white: rgba(255,255,255,0.05);
   --white-double: rgba(255,255,255,0.1);
