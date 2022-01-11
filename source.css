@@ -1,4 +1,5 @@
 :root {
+  
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
@@ -30,6 +31,7 @@
   --chat-bubble-display: inline-block;
   --version: "Night Time City 2.0";
 }
+
 #app-mount .cozy-3raOZG .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39) {
   display: var(--chat-bubble-display);
   margin: 0;
