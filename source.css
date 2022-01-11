@@ -1,11 +1,3 @@
-/**
- * @name Night Time City
- * @description :flushed:
- * @source https://github.com/DongusChongus/Night-Time-City/blob/main/source.css
- * @author DongusChongus#3969
- * @version 2.0
-*/
-
 :root {
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
   --TB-top: calc(var(--server-container) + var(--window-padding));
