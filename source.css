@@ -1,5 +1,12 @@
+/**
+ * @name Night Time City
+ * @description :flushed:
+ * @source https://github.com/DongusChongus/Night-Time-City/blob/main/source.css
+ * @author DongusChongus#3969
+ * @version 2.0
+*/
+
 :root {
-  
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
@@ -29,7 +36,6 @@
   --chat-bubble-bg-self: var(--bubbles);
   --chat-bubble-padding: 10px 14px;
   --chat-bubble-display: inline-block;
-  --version: "Night Time City 2.0";
 }
 
 #app-mount .cozy-3raOZG .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39) {
@@ -41,9 +47,11 @@
   overflow: visible;
   max-width: 100%;
 }
+
 #app-mount .cozy-3raOZG[data-is-author-self=true] .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39) {
   background: var(--chat-bubble-bg-self);
 }
+
 .theme-dark {
   --header-primary: #fff;
   --header-secondary: #bbb;
