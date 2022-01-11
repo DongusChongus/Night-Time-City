@@ -1810,3 +1810,17 @@ html.platform-osx .scroller-2TZvBN {
 .everyonePopout-nEbJY3 g > :nth-child(10) > :first-child path { fill: #E0C310;}
 .everyonePopout-nEbJY3 g > :nth-child(11) > :first-child path { fill: #FBD907;}
 }
+.sidebar-2K8pFh{
+  width: 0px;
+  transition: 0.6s ease;
+  position: fixed;
+  height: calc(100% - 47.988px);
+  z-index: 1;
+  bottom: 0px;
+}
+.wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh{
+  width:240px;
+}
+.sidebar-2K8pFh:hover{
+  width:240px;
+}
