@@ -486,7 +486,7 @@
   content: "";
   border-radius: 50%;
   position: absolute;
-  background: var(--home-button-image, url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg"));
+  background: var(--home-button-image, url("https://donguschongus.github.io/Night-Time-City/Default/Default%20Background%20Image.jpeg"));
   background-size: var(--home-button-size, cover);
   background-position: var(--home-button-position, center);
   height: 100%;
