@@ -24,7 +24,6 @@
   --discord-spotify: 29,185,84;
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
-  --version: "Frosted Glass 2.0.10";
 }
 
 .theme-dark {
@@ -135,19 +134,6 @@
   background: rgb(var(--gradient-primary));
   color: var(--text-normal);
 }
-
-#app-mount .app-2CXKsg::before {
-  content: "Your version of Frosted Glass is outdated. Please redownload";
-  white-space: pre-wrap;
-  display: var(--update-notice-1, block);
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  box-sizing: border-box;
-  background: rgb(var(--discord-blurple), 0.7);
-  text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
-}
-
 ::-webkit-scrollbar {
   width: 8px !important;
   height: 8px !important;
@@ -1408,11 +1394,6 @@
 }
 #app-mount #user-settings .item-3eFBNF {
   box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
-}
-
-#app-mount .info-1sUqUG .colorMuted-20987_:first-child:before {
-  content: var(--version);
-  display: block;
 }
 #app-mount .contentRegion-3HkfJJ {
   background: rgba(0, 0, 0, var(--middle-brightness));
